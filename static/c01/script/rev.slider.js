@@ -6,7 +6,7 @@ function dz_rev_slider_1(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
 			delay:5000,
@@ -116,7 +116,7 @@ function dz_rev_slider_2(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
 			delay:5000,
@@ -176,7 +176,7 @@ function dz_rev_slider_3(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"hero",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
 			delay:5000,
@@ -238,7 +238,7 @@ function dz_rev_slider_4(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
 			delay:5000,
@@ -331,7 +331,7 @@ function dz_rev_slider_5(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullwidth",
 			dottedOverlay:"none",
 			delay:5000,
@@ -413,7 +413,7 @@ function dz_rev_slider_6(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
 			delay:5000,
@@ -506,7 +506,7 @@ function dz_rev_slider_7(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullwidth",
 			dottedOverlay:"none",
 			delay:5000,
@@ -584,7 +584,7 @@ function dz_rev_slider_8(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"hero",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
 			delay:5000,
@@ -678,7 +678,7 @@ function dz_rev_slider_12(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
 			delay:5000,
@@ -763,7 +763,7 @@ function dz_rev_slider_13(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"hero",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
 			delay:5000,
@@ -825,7 +825,7 @@ function dz_rev_slider_14(element){
 	}else{
 		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
-			jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"//cdn.jsdelivr.net/gh/hfmphe/resource@main/static/c01/plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
 			delay:5000,
