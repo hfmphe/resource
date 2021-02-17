@@ -1,10 +1,10 @@
 var dzrevapi;
 var dzQuery =jQuery;
-function dz_rev_slider_1(){
-	if(dzQuery("#welcome").revolution == undefined){
-		revslider_showDoubleJqueryError("#welcome");
+function dz_rev_slider_1(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#welcome").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
@@ -44,7 +44,7 @@ function dz_rev_slider_1(){
 				keyboardNavigation:"off",
 				keyboard_direction: "horizontal",
 				mouseScrollNavigation:"off",
- 							mouseScrollReverse:"default",
+				mouseScrollReverse:"default",
 				onHoverStop:"off",
 				arrows: {
 					style:"uranus",
@@ -108,15 +108,13 @@ function dz_rev_slider_1(){
 				disableFocusListener:false,
 			}
 		});
-		
 	}
 }
-
-function dz_rev_slider_2(){
-	if(dzQuery("#rev_slider_1164_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_1164_1");
+function dz_rev_slider_2(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_1164_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
@@ -135,7 +133,7 @@ function dz_rev_slider_2(){
 					swipe_direction: "horizontal",
 					drag_block_vertical: false
 				}
-				
+
 			},
 			responsiveLevels:[1240,1025,778,480],
 			visibilityLevels:[1240,1025,778,480],
@@ -172,12 +170,11 @@ function dz_rev_slider_2(){
 		});
 	}
 }
-
-function dz_rev_slider_3(){
-	if(dzQuery("#rev_slider_14_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_14_1");
+function dz_rev_slider_3(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_14_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"hero",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
@@ -235,12 +232,11 @@ function dz_rev_slider_3(){
 		});
 	}
 }
-
-function dz_rev_slider_4(){
-	if(dzQuery("#rev_slider_1077_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_1077_1");
+function dz_rev_slider_4(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_1077_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
@@ -312,29 +308,28 @@ function dz_rev_slider_4(){
 			}
 		});
 		var newCall = new Object(),
-		cslide;
+			cslide;
 
-		newCall.callback = function() { 
-		var proc = revapi1077.revgetparallaxproc(),
-		fade = 1+proc,
-		scale = 1+(Math.abs(proc)/10);
+		newCall.callback = function() {
+			var proc = revapi1077.revgetparallaxproc(),
+				fade = 1+proc,
+				scale = 1+(Math.abs(proc)/10);
 
-		punchgs.TweenLite.set(revapi1077.find('.slotholder, .rs-background-video-layer'),{opacity:fade,scale:scale});		
+			punchgs.TweenLite.set(revapi1077.find('.slotholder, .rs-background-video-layer'),{opacity:fade,scale:scale});
 		}
 		newCall.inmodule = "parallax";
 		newCall.atposition = "start";
 
 		/*revapi1077.bind("revolution.slide.onloaded",function (e) {
 		revapi1077.revaddcallback(newCall);
-		});*/				
+		});*/
 	}
 }
-
-function dz_rev_slider_5(){
-	if(dzQuery("#rev_slider_1175_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_1175_1");
+function dz_rev_slider_5(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_1175_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullwidth",
@@ -412,12 +407,11 @@ function dz_rev_slider_5(){
 		});
 	}
 }
-
-function dz_rev_slider_6(){
-	if(dzQuery("#rev_slider_1077_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_1077_1");
+function dz_rev_slider_6(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_1077_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
@@ -489,30 +483,29 @@ function dz_rev_slider_6(){
 			}
 		});
 		var newCall = new Object(),
-		cslide;
+			cslide;
 
-		newCall.callback = function() { 
-		var proc = revapi1077.revgetparallaxproc(),
-		fade = 1+proc,
-		scale = 1+(Math.abs(proc)/10);
+		newCall.callback = function() {
+			var proc = revapi1077.revgetparallaxproc(),
+				fade = 1+proc,
+				scale = 1+(Math.abs(proc)/10);
 
-		punchgs.TweenLite.set(revapi1077.find('.slotholder, .rs-background-video-layer'),{opacity:fade,scale:scale});		
+			punchgs.TweenLite.set(revapi1077.find('.slotholder, .rs-background-video-layer'),{opacity:fade,scale:scale});
 		}
 		newCall.inmodule = "parallax";
 		newCall.atposition = "start";
 
 		revapi1077.bind("revolution.slide.onloaded",function (e) {
-		revapi1077.revaddcallback(newCall);
-		});				
+			revapi1077.revaddcallback(newCall);
+		});
 	}
 }
-
-function dz_rev_slider_7(){
-	if(dzQuery("#rev_slider_one").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_one");
+function dz_rev_slider_7(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_one").show().revolution({
-		sliderType:"standard",
+		dzrevapi = dzQuery(element).show().revolution({
+			sliderType:"standard",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullwidth",
 			dottedOverlay:"none",
@@ -521,7 +514,7 @@ function dz_rev_slider_7(){
 				keyboardNavigation:"off",
 				keyboard_direction: "horizontal",
 				mouseScrollNavigation:"off",
-					mouseScrollReverse:"default",
+				mouseScrollReverse:"default",
 				onHoverStop:"off",
 				touch:{
 					touchenabled:"on",
@@ -551,46 +544,45 @@ function dz_rev_slider_7(){
 						v_offset:0
 					}
 				}
-				
+
 			},
-			 responsiveLevels:[1200,1040,778,480],
-			 visibilityLevels:[1200,1040,778,480],
-			 gridwidth:[1200,1040,778,480],
-			 gridheight:[750,600,500,450],
-			 lazyType:"none",
-			 parallax: {
-				 type:"scroll",
-				 origo:"enterpoint",
-				 speed:400,
-				 levels:[5,10,15,20,25,30,35,40,45,50,46,47,48,49,50,55],
-				 type:"scroll",
-			 },
-			 shadow:0,
-			 spinner:"off",
-			 stopLoop: "off",
+			responsiveLevels:[1200,1040,778,480],
+			visibilityLevels:[1200,1040,778,480],
+			gridwidth:[1200,1040,778,480],
+			gridheight:[750,600,500,450],
+			lazyType:"none",
+			parallax: {
+				type:"scroll",
+				origo:"enterpoint",
+				speed:400,
+				levels:[5,10,15,20,25,30,35,40,45,50,46,47,48,49,50,55],
+				type:"scroll",
+			},
+			shadow:0,
+			spinner:"off",
+			stopLoop: "off",
 			stopAfterLoops: -1,
 			stopAtSlide: -1,
-			 shuffle:"off",
-			 autoHeight:"off",
-			 hideThumbsOnMobile:"off",
-			 hideSliderAtLimit:0,
-			 hideCaptionAtLimit:0,
-			 hideAllCaptionAtLilmit:0,
-			 debugMode:false,
-			 fallbacks: {
-				 simplifyAll:"off",
-				 nextSlideOnWindowFocus:"off",
-				 disableFocusListener:false,
-			 }
+			shuffle:"off",
+			autoHeight:"off",
+			hideThumbsOnMobile:"off",
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			debugMode:false,
+			fallbacks: {
+				simplifyAll:"off",
+				nextSlideOnWindowFocus:"off",
+				disableFocusListener:false,
+			}
 		});
 	}
 }
-
-function dz_rev_slider_5(){
-	if(dzQuery("#rev_slider_1175_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_1175_1");
+function dz_rev_slider_5(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_1175_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullwidth",
@@ -668,12 +660,11 @@ function dz_rev_slider_5(){
 		});
 	}
 }
-
-function dz_rev_slider_8(){
-	if(dzQuery("#rev_slider_1069_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_1069_1");
+function dz_rev_slider_8(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_1069_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"hero",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
@@ -716,12 +707,11 @@ function dz_rev_slider_8(){
 		});
 	}
 }
-
-function dz_rev_slider_11(){
-	if(dzQuery("#rev_slider_11_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_11_1");
+function dz_rev_slider_11(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_11_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
@@ -738,8 +728,8 @@ function dz_rev_slider_11(){
 				type:"mouse",
 				origo:"enterpoint",
 				speed:400,
-			  speedbg:0,
-			  speedls:0,
+				speedbg:0,
+				speedls:0,
 				levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
 			},
 			shadow:0,
@@ -764,14 +754,13 @@ function dz_rev_slider_11(){
 		});
 	}
 }
-
-function dz_rev_slider_12(){
-	if(dzQuery("#rev_slider_1061_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_1061_1");
+function dz_rev_slider_12(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_1061_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
-jsFileLocation:"plugins/revolution/revolution/js/",
+			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
 			delay:5000,
@@ -850,12 +839,11 @@ jsFileLocation:"plugins/revolution/revolution/js/",
 		});
 	}
 }
-
-function dz_rev_slider_13(){
-	if(dzQuery("#rev_slider_14_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_14_1");
+function dz_rev_slider_13(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_14_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"hero",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
@@ -913,12 +901,11 @@ function dz_rev_slider_13(){
 		});
 	}
 }
-
-function dz_rev_slider_14(){
-	if(dzQuery("#welcome").revolution == undefined){
-		revslider_showDoubleJqueryError("#welcome");
+function dz_rev_slider_14(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#welcome").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
@@ -958,7 +945,7 @@ function dz_rev_slider_14(){
 				keyboardNavigation:"off",
 				keyboard_direction: "horizontal",
 				mouseScrollNavigation:"off",
- 							mouseScrollReverse:"default",
+				mouseScrollReverse:"default",
 				onHoverStop:"off",
 				arrows: {
 					style:"uranus",
@@ -1022,14 +1009,14 @@ function dz_rev_slider_14(){
 				disableFocusListener:false,
 			}
 		});
-		
+
 	}
 }
-function dz_rev_slider_15(){
-	if(dzQuery("#rev_slider_11_1").revolution == undefined){
-		revslider_showDoubleJqueryError("#rev_slider_11_1");
+function dz_rev_slider_15(element){
+	if(dzQuery(element).revolution == undefined){
+		revslider_showDoubleJqueryError(element);
 	}else{
-		dzrevapi = dzQuery("#rev_slider_11_1").show().revolution({
+		dzrevapi = dzQuery(element).show().revolution({
 			sliderType:"standard",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
@@ -1046,8 +1033,8 @@ function dz_rev_slider_15(){
 				type:"mouse",
 				origo:"enterpoint",
 				speed:400,
-			  speedbg:0,
-			  speedls:0,
+				speedbg:0,
+				speedls:0,
 				levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
 			},
 			shadow:0,
